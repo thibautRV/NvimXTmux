@@ -82,11 +82,3 @@ Prérequis : Neovim ≥ 0.9, `git`, `ripgrep` (pour Telescope live_grep), une [N
 | `K` | Documentation au survol |
 | `<leader>rn` | Renommer |
 | `<leader>ca` | Actions de code |
-
----
-
-## Pourquoi ce choix pour ta phase d'apprentissage
-
-- Tout ce qui **répond à ta place** (LSP, Copilot) est **off par défaut** et regroupé sous un seul préfixe mnémonique `<leader>t...` (Toggle), facile à retrouver même dans plusieurs mois.
-- Tout ce qui **t'aide sans penser à ta place** (coloration, fuzzy finder, git signs, explorateur) reste actif : ça ne diminue pas l'apprentissage, ça évite juste de perdre du temps bêtement.
-- Le jour où tu veux réactiver l'assistance : `<leader>tl` puis `<leader>ta`, et rien d'autre à changer dans ta config.
